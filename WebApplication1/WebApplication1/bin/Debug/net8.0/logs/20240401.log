@@ -1,0 +1,136 @@
+2024-04-01 21:58:07.148 -03:00 [INF] Now listening on: http://localhost:5133
+2024-04-01 21:58:07.221 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-01 21:58:07.222 -03:00 [INF] Hosting environment: Development
+2024-04-01 21:58:07.222 -03:00 [INF] Content root path: C:\Users\leogo\OneDrive\Área de Trabalho\WebApplication1\WebApplication1
+2024-04-01 21:58:07.343 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/index.html - null null
+2024-04-01 21:58:07.554 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/index.html - 200 null text/html;charset=utf-8 213.1782ms
+2024-04-01 21:58:07.603 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/_vs/browserLink - null null
+2024-04-01 21:58:07.603 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-01 21:58:07.605 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 2.8511ms
+2024-04-01 21:58:07.636 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.7315ms
+2024-04-01 21:58:07.975 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/swagger/v1/swagger.json - null null
+2024-04-01 21:58:08.105 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 130.1281ms
+2024-04-01 21:59:29.010 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/cartoes/1111-XXX-X1_X/obter-bandeira - null null
+2024-04-01 21:59:29.019 -03:00 [INF] Executing endpoint 'WebApplication1.Controllers.CartoesController.ObterBandeira (WebApplication1)'
+2024-04-01 21:59:29.049 -03:00 [INF] Route matched with {action = "ObterBandeira", controller = "Cartoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ObterBandeira(System.String) on controller WebApplication1.Controllers.CartoesController (WebApplication1).
+2024-04-01 21:59:29.075 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-01 21:59:29.110 -03:00 [INF] Executed action WebApplication1.Controllers.CartoesController.ObterBandeira (WebApplication1) in 54.6362ms
+2024-04-01 21:59:29.110 -03:00 [INF] Executed endpoint 'WebApplication1.Controllers.CartoesController.ObterBandeira (WebApplication1)'
+2024-04-01 21:59:29.110 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/cartoes/1111-XXX-X1_X/obter-bandeira - 404 null application/problem+json; charset=utf-8 100.225ms
+2024-04-01 21:59:43.788 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/cartoes/1111-XXX-X-X/obter-bandeira - null null
+2024-04-01 21:59:43.791 -03:00 [INF] Executing endpoint 'WebApplication1.Controllers.CartoesController.ObterBandeira (WebApplication1)'
+2024-04-01 21:59:43.791 -03:00 [INF] Route matched with {action = "ObterBandeira", controller = "Cartoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ObterBandeira(System.String) on controller WebApplication1.Controllers.CartoesController (WebApplication1).
+2024-04-01 21:59:43.794 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-01 21:59:43.794 -03:00 [INF] Executed action WebApplication1.Controllers.CartoesController.ObterBandeira (WebApplication1) in 2.4926ms
+2024-04-01 21:59:43.794 -03:00 [INF] Executed endpoint 'WebApplication1.Controllers.CartoesController.ObterBandeira (WebApplication1)'
+2024-04-01 21:59:43.795 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/cartoes/1111-XXX-X-X/obter-bandeira - 404 null application/problem+json; charset=utf-8 6.428ms
+2024-04-01 22:00:22.402 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/cartoes/1111/obter-bandeira - null null
+2024-04-01 22:00:22.402 -03:00 [INF] Executing endpoint 'WebApplication1.Controllers.CartoesController.ObterBandeira (WebApplication1)'
+2024-04-01 22:00:22.403 -03:00 [INF] Route matched with {action = "ObterBandeira", controller = "Cartoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ObterBandeira(System.String) on controller WebApplication1.Controllers.CartoesController (WebApplication1).
+2024-04-01 22:00:22.405 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-01 22:00:22.406 -03:00 [INF] Executed action WebApplication1.Controllers.CartoesController.ObterBandeira (WebApplication1) in 2.8858ms
+2024-04-01 22:00:22.406 -03:00 [INF] Executed endpoint 'WebApplication1.Controllers.CartoesController.ObterBandeira (WebApplication1)'
+2024-04-01 22:00:22.406 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/cartoes/1111/obter-bandeira - 404 null application/problem+json; charset=utf-8 4.6063ms
+2024-04-01 22:00:31.846 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/cartoes/1111255516996632/obter-bandeira - null null
+2024-04-01 22:00:31.848 -03:00 [INF] Executing endpoint 'WebApplication1.Controllers.CartoesController.ObterBandeira (WebApplication1)'
+2024-04-01 22:00:31.848 -03:00 [INF] Route matched with {action = "ObterBandeira", controller = "Cartoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ObterBandeira(System.String) on controller WebApplication1.Controllers.CartoesController (WebApplication1).
+2024-04-01 22:00:31.851 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-04-01 22:00:31.858 -03:00 [INF] Executed action WebApplication1.Controllers.CartoesController.ObterBandeira (WebApplication1) in 9.0442ms
+2024-04-01 22:00:31.858 -03:00 [INF] Executed endpoint 'WebApplication1.Controllers.CartoesController.ObterBandeira (WebApplication1)'
+2024-04-01 22:00:31.858 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/cartoes/1111255516996632/obter-bandeira - 200 null application/json; charset=utf-8 12.0456ms
+2024-04-01 22:00:43.154 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/cartoes/1111-255-516996632/obter-bandeira - null null
+2024-04-01 22:00:43.155 -03:00 [INF] Executing endpoint 'WebApplication1.Controllers.CartoesController.ObterBandeira (WebApplication1)'
+2024-04-01 22:00:43.155 -03:00 [INF] Route matched with {action = "ObterBandeira", controller = "Cartoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ObterBandeira(System.String) on controller WebApplication1.Controllers.CartoesController (WebApplication1).
+2024-04-01 22:00:43.156 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-04-01 22:00:43.156 -03:00 [INF] Executed action WebApplication1.Controllers.CartoesController.ObterBandeira (WebApplication1) in 0.507ms
+2024-04-01 22:00:43.156 -03:00 [INF] Executed endpoint 'WebApplication1.Controllers.CartoesController.ObterBandeira (WebApplication1)'
+2024-04-01 22:00:43.156 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/cartoes/1111-255-516996632/obter-bandeira - 200 null application/json; charset=utf-8 2.0594ms
+2024-04-01 22:00:52.670 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/cartoes/1111255516996632/valido - null null
+2024-04-01 22:00:52.671 -03:00 [INF] Executing endpoint 'WebApplication1.Controllers.CartoesController.ValidaCartao (WebApplication1)'
+2024-04-01 22:00:52.675 -03:00 [INF] Route matched with {action = "ValidaCartao", controller = "Cartoes"}. Executing controller action with signature Boolean ValidaCartao(System.String) on controller WebApplication1.Controllers.CartoesController (WebApplication1).
+2024-04-01 22:00:53.339 -03:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2024-04-01 22:00:53.344 -03:00 [INF] Executed action WebApplication1.Controllers.CartoesController.ValidaCartao (WebApplication1) in 668.7243ms
+2024-04-01 22:00:53.344 -03:00 [INF] Executed endpoint 'WebApplication1.Controllers.CartoesController.ValidaCartao (WebApplication1)'
+2024-04-01 22:00:53.344 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/cartoes/1111255516996632/valido - 200 null application/json; charset=utf-8 674.1442ms
+2024-04-01 22:17:53.276 -03:00 [INF] Now listening on: http://localhost:5133
+2024-04-01 22:17:53.331 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-01 22:17:53.332 -03:00 [INF] Hosting environment: Development
+2024-04-01 22:17:53.332 -03:00 [INF] Content root path: C:\Users\leogo\OneDrive\Área de Trabalho\WebApplication1\WebApplication1
+2024-04-01 22:17:53.869 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/index.html - null null
+2024-04-01 22:17:54.121 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/index.html - 200 null text/html;charset=utf-8 253.924ms
+2024-04-01 22:17:54.230 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-01 22:17:54.230 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/_vs/browserLink - null null
+2024-04-01 22:17:54.232 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 2.4934ms
+2024-04-01 22:17:54.263 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.1275ms
+2024-04-01 22:17:54.525 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/swagger/v1/swagger.json - null null
+2024-04-01 22:17:54.661 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 136.4802ms
+2024-04-01 22:18:32.197 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5133/pagamentos - application/json 86
+2024-04-01 22:18:32.204 -03:00 [INF] Executing endpoint 'WebApplication1.Controllers.PagamentoController.CriarAssistente (WebApplication1)'
+2024-04-01 22:18:32.238 -03:00 [INF] Route matched with {action = "CriarAssistente", controller = "Pagamento"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CriarAssistente(WebApplication1.ViewModel.PagamentoViewModel) on controller WebApplication1.Controllers.PagamentoController (WebApplication1).
+2024-04-01 22:18:32.356 -03:00 [INF] Executed action WebApplication1.Controllers.PagamentoController.CriarAssistente (WebApplication1) in 113.5234ms
+2024-04-01 22:18:32.358 -03:00 [INF] Executed endpoint 'WebApplication1.Controllers.PagamentoController.CriarAssistente (WebApplication1)'
+2024-04-01 22:18:32.361 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Parameter '@Parcelas' has already been defined.
+   at MySql.Data.MySqlClient.MySqlParameterCollection.InternalAdd(MySqlParameter value, Nullable`1 index)
+   at MySql.Data.MySqlClient.MySqlParameterCollection.Add(MySqlParameter value)
+   at MySql.Data.MySqlClient.MySqlParameterCollection.AddWithValue(String parameterName, Object value)
+   at WebApplication1.Service.PagamentoService.Salvar(Pagamento pagamento) in C:\Users\leogo\OneDrive\Área de Trabalho\WebApplication1\WebApplication1\Service\PagamentoService.cs:line 170
+   at WebApplication1.Controllers.PagamentoController.CriarAssistente(PagamentoViewModel pagamentoView) in C:\Users\leogo\OneDrive\Área de Trabalho\WebApplication1\WebApplication1\Controllers\PagamentoController.cs:line 155
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-01 22:18:32.420 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5133/pagamentos - 500 null text/plain; charset=utf-8 222.2881ms
+2024-04-01 22:20:09.659 -03:00 [INF] Now listening on: http://localhost:5133
+2024-04-01 22:20:09.700 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-01 22:20:09.700 -03:00 [INF] Hosting environment: Development
+2024-04-01 22:20:09.700 -03:00 [INF] Content root path: C:\Users\leogo\OneDrive\Área de Trabalho\WebApplication1\WebApplication1
+2024-04-01 22:20:09.800 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/index.html - null null
+2024-04-01 22:20:10.009 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/index.html - 200 null text/html;charset=utf-8 209.5877ms
+2024-04-01 22:20:10.025 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-01 22:20:10.026 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/_vs/browserLink - null null
+2024-04-01 22:20:10.028 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 3.4468ms
+2024-04-01 22:20:10.069 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.1413ms
+2024-04-01 22:20:10.330 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/swagger/v1/swagger.json - null null
+2024-04-01 22:20:10.437 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 106.5904ms
+2024-04-01 22:20:37.691 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5133/pagamentos - application/json 86
+2024-04-01 22:20:37.697 -03:00 [INF] Executing endpoint 'WebApplication1.Controllers.PagamentoController.CriarAssistente (WebApplication1)'
+2024-04-01 22:20:37.715 -03:00 [INF] Route matched with {action = "CriarAssistente", controller = "Pagamento"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CriarAssistente(WebApplication1.ViewModel.PagamentoViewModel) on controller WebApplication1.Controllers.PagamentoController (WebApplication1).
+2024-04-01 22:20:39.405 -03:00 [INF] Executing OkObjectResult, writing value of type 'WebApplication1.Entidade.Pagamento'.
+2024-04-01 22:20:39.430 -03:00 [INF] Executed action WebApplication1.Controllers.PagamentoController.CriarAssistente (WebApplication1) in 1710.7072ms
+2024-04-01 22:20:39.430 -03:00 [INF] Executed endpoint 'WebApplication1.Controllers.PagamentoController.CriarAssistente (WebApplication1)'
+2024-04-01 22:20:39.430 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5133/pagamentos - 200 null application/json; charset=utf-8 1739.2476ms
+2024-04-01 22:21:59.571 -03:00 [INF] Now listening on: http://localhost:5133
+2024-04-01 22:21:59.620 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-01 22:21:59.621 -03:00 [INF] Hosting environment: Development
+2024-04-01 22:21:59.621 -03:00 [INF] Content root path: C:\Users\leogo\OneDrive\Área de Trabalho\WebApplication1\WebApplication1
+2024-04-01 22:22:00.332 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/index.html - null null
+2024-04-01 22:22:00.619 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/index.html - 200 null text/html;charset=utf-8 289.1423ms
+2024-04-01 22:22:00.763 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/_vs/browserLink - null null
+2024-04-01 22:22:00.763 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-01 22:22:00.766 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 3.6011ms
+2024-04-01 22:22:00.805 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.1866ms
+2024-04-01 22:22:00.963 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5133/swagger/v1/swagger.json - null null
+2024-04-01 22:22:01.131 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5133/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 167.8832ms
+2024-04-01 22:22:31.870 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5133/pagamentos - application/json 89
+2024-04-01 22:22:31.878 -03:00 [INF] Executing endpoint 'WebApplication1.Controllers.PagamentoController.CriarAssistente (WebApplication1)'
+2024-04-01 22:22:31.908 -03:00 [INF] Route matched with {action = "CriarAssistente", controller = "Pagamento"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CriarAssistente(WebApplication1.ViewModel.PagamentoViewModel) on controller WebApplication1.Controllers.PagamentoController (WebApplication1).
+2024-04-01 22:22:32.849 -03:00 [INF] Executing OkObjectResult, writing value of type 'WebApplication1.Entidade.Pagamento'.
+2024-04-01 22:22:32.872 -03:00 [INF] Executed action WebApplication1.Controllers.PagamentoController.CriarAssistente (WebApplication1) in 959.1227ms
+2024-04-01 22:22:32.872 -03:00 [INF] Executed endpoint 'WebApplication1.Controllers.PagamentoController.CriarAssistente (WebApplication1)'
+2024-04-01 22:22:32.872 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5133/pagamentos - 200 null application/json; charset=utf-8 1002.1679ms

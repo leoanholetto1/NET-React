@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication1</name>
+    </assembly>
+    <members>
+        <member name="T:WebApplication1.Controllers.CartoesController">
+            <summary>
+            Gerenciar Cartão.
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.CartoesController.ObterBandeira(System.String)">
+            <summary>
+            Recebe um cartão e verifica a bandeira.
+            </summary>
+            <param name="cartao">Número do cartão</param>
+            <returns>Retorna a bandeira do cartão.</returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.CartoesController.ValidaCartao(System.String)">
+            <summary>
+            Recebe um cartão e verifica se é valido.
+            </summary>
+            <param name="cartao">Número do cartão</param>
+            <returns>Retorna um valor booleano para dizer se o cartao é valido ou não.</returns>
+        </member>
+        <member name="T:WebApplication1.Controllers.PagamentoController">
+            <summary>
+            Crie e gerenciar Pagamento.
+            </summary>
+        </member>
+        <member name="M:WebApplication1.Controllers.PagamentoController.CalcularParcelas(WebApplication1.ViewModel.CalcularParcelasViewModel)">
+            <summary>
+            Recebe uma requisição onde no corpo tem o valor total, o número de parcelas e a quantidade de parcelas.
+            </summary>
+            <returns>Retorna a lista das parcelas e o valor de cada parcela</returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.PagamentoController.ObterSituacao(System.Int32)">
+            <summary>
+            Recebe um Id de pagamento para verificar a situação
+            </summary>
+            <param name="id">Id do pagamento</param>
+            <returns>Retorna a situação do pagamento</returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.PagamentoController.Confirmar(System.Int32)">
+            <summary>
+            Recebe um Id de pagamento para confirmar.
+            </summary>
+            <param name="id">Id do pagamento</param>
+            <returns>Retorna se funcionou ou não</returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.PagamentoController.Cancelar(System.Int32)">
+            <summary>
+            Recebe um Id de pagamento para cancelar.
+            </summary>
+            <param name="id">Id do pagamento</param>
+            <returns>Retorna se funcionou ou não</returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.PagamentoController.CriarAssistente(WebApplication1.ViewModel.PagamentoViewModel)">
+            <summary>
+            Criar um novo pagamento.
+            </summary>
+            <returns>Retorna o Id do pagamento criado.</returns>
+        </member>
+    </members>
+</doc>

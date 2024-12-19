@@ -1,0 +1,21 @@
+{
+  "name": "apipaises",
+  "version": "1.0.0",
+  "description": "Trabalho LP",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jessica e Leonardo",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "g": "^2.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0"
+  }
+}
